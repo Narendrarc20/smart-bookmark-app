@@ -34,6 +34,7 @@ I created proper RLS policies for:
 - SELECT
 - INSERT
 - DELETE
+  
 Using the condition:
 auth.uid() = user_id
 
@@ -80,7 +81,3 @@ I reinitialized Git in the correct project root, removed incorrect remotes, set 
 - Users can only access their own bookmarks
 
 ---
-
-
-Using the condition:
-
